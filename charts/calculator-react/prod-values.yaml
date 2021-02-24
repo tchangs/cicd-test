@@ -1,0 +1,4 @@
+repository:
+  image: ocscr1.azurecr.io/calculator-react:cicd-test_main_calculator-react.20210107.0
+host:
+  name: devops-azure-prod.omnicell-ivx.com
