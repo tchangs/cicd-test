@@ -1,0 +1,16 @@
+minReplicas: 1
+maxReplicas: 2
+
+repository:
+  image: ocscr1.azurecr.io/calculator-flask:latest
+  imagePullPolicy: Always
+  imagePullSecret: omnidocker
+
+service:
+  name: calculator-flask
+  port: 80
+
+host:
+  name: devops-azure-dev.omnicell-ivx.com
+  
+  

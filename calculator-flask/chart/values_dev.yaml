@@ -1,0 +1,4 @@
+repository:
+  image: ocscr1.azurecr.io/calculator-flask:cicd-test_main_calculator-flask.20210201.2
+host:
+  name: devops-azure-dev.omnicell-ivx.com
